@@ -7,7 +7,7 @@ describe('Transactions routes', () => {
   beforeAll(async () => {
     await app.ready()
   })
-
+ 
   afterAll(async () => {
     await app.close()
   })
@@ -18,7 +18,7 @@ describe('Transactions routes', () => {
       .send({
         title: 'New transaction',
         amount: 5000,
-        type: 'credit',
+        type: 'debit',
       })
       .expect(201)
   })
