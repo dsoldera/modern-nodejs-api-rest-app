@@ -1,6 +1,6 @@
 import { FastifyReply, FastifyRequest } from "fastify"
 
-export const checkSessionIdExists = (
+export const checkSessionIdExists = async (
     request: FastifyRequest, 
     reply: FastifyReply
   ) => {
