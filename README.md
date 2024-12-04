@@ -45,3 +45,11 @@ A project developed at the module about API REST of NodeJs
 **afterEach**
 
 É uma função que é executada após cada teste. É útil para limpar o ambiente depois da execução de cada teste, por exemplo, limpar variáveis ou fechar conexões com o banco de dados.
+
+## To build
+
+- `npm run build`
+
+To Check if everything is ok with the build
+
+- `node build/server.js`
